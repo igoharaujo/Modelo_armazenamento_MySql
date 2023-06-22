@@ -234,33 +234,13 @@ Esse é um projeto de banco de dados visando criar uma estrutura de dados para a
 
 - **vw_perfil:** Apresenta informações sobre os perfis dos clientes, incluindo o número total de perfis e os tipos de perfil associados a cada cliente.
 
-
-
-
-
-
-
-
-
 <div align=center>
 
-## Funções
-</div>
 
-- **Function1:** Esta função daz isso e quilo outro ...
-- **Function2:** Esta função daz isso e quilo outro ...
-- **Function3:** Esta função daz isso e quilo outro ...
-- **Function4:** Esta função daz isso e quilo outro ...
-- **Function5:** Esta função daz isso e quilo outro ...
-
-<div align=center>
 
 ## Procedures
 </div>
 
-## Procedures
-
-## Procedures
 
 - **sp_insert_classificacao:** Esta procedure realiza a inserção de uma nova classificação no banco de dados. Ela recebe como parâmetros as informações necessárias para criar uma nova classificação, como nome, descrição, faixa etária, etc.
 
@@ -308,20 +288,6 @@ Esse é um projeto de banco de dados visando criar uma estrutura de dados para a
 
 Cada uma das procedures acima é responsável pela operação de inserção de um determinado elemento no banco de dados, facilitando a criação de registros e a associação de dados.
 
-
-
-<div align=center>
-
-## Triggers
-</div>
-
-- **Trigger1:** Esta procedures daz isso e quilo outro ...
-- **Trigger2:** Esta procedures daz isso e quilo outro ...
-- **Trigger3:** Esta procedures daz isso e quilo outro ...
-- **Trigger4:** Esta procedures daz isso e quilo outro ...
-- **Trigger5:** Esta procedures daz isso e quilo outro ...
-
-
 <div align=center>
 
 ## Scripts
@@ -331,7 +297,7 @@ Cada uma das procedures acima é responsável pela operação de inserção de u
 |-----------|-----------|
 |DDL        |[Clique aqui](/2_script/1_DDL.sql)|
 |Dados      |[Clique aqui](/2_script/2_Insert_dados_de_teste.sql)|
-|views      |[Clique aqui]()|
+|views      |[Clique aqui](/2_script/3-views.sql)|
 |Procedures_insert|[Clique aqui](/2_script/4_Procedure_insert.sql)|
 |procedures_update|[Clique aqui](/2_script/5_Procedure_UPDATE.sql)|
 |procedures_delete|[Clique aqui](/2_script/6_Procedure_DELETE.sql)|
