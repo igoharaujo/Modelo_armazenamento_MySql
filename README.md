@@ -283,7 +283,7 @@ Esse é um projeto de banco de dados visando criar uma estrutura de dados para a
 
 |Scripts    |Clique aqui|
 |-----------|-----------|
-|DDL        |[Clique aqui](https://seulinkaqui.com)|
+|DDL        |[Clique aqui](/2_script/1_DDL.sql)|
 |Dados      |[Clique aqui](https://seulinkaqui.com)|
 |Views      |[Clique aqui](https://seulinkaqui.com)|
 |Funções    |[Clique aqui](https://seulinkaqui.com)|
