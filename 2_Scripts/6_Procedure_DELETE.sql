@@ -1,4 +1,6 @@
+# -------------- PROCEDURES ----------------
 
+# ---------------- DELETE -----------------
 -- PAIS
 DELIMITER $$
 CREATE PROCEDURE sp_delete_pais(
