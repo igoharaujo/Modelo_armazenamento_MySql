@@ -224,7 +224,7 @@ Esse é um projeto de banco de dados visando criar uma estrutura de dados para a
 |DDL        |[Clique aqui](/2_script/1_DDL.sql)|
 |Dados      |[Clique aqui](/2_script/2_Insert_dados_de_teste.sql)|
 |views      |[Clique aqui](/2_script/3-views.sql)|
-|Procedures_insert|[Clique aqui](/2_script/4_Procedure_insert.sql)|
+|Procedures_insert|[Clique aqui](/2_script/4_Procedure_INSERT.sql)|
 |procedures_update|[Clique aqui](/2_script/5_Procedure_UPDATE.sql)|
 |procedures_delete|[Clique aqui](/2_script/6_Procedure_DELETE.sql)|
 |Dumps      |[Clique aqui](https://seulinkaqui.com)|
@@ -302,14 +302,14 @@ Esse é um projeto de banco de dados visando criar uma estrutura de dados para a
 
 - **sp_insert_perfil:** Esta procedure realiza a inserção de um novo perfil no banco de dados. Ela recebe como parâmetros os dados do perfil, como nome, descrição, etc., e cria um novo registro na tabela de perfis.
 
-Cada uma das procedures acima é responsável pela operação de inserção de um determinado elemento no banco de dados, facilitando a criação de registros e a associação de dados.
+Cada uma das procedures acima é responsável pela operação de inserção de um determinado elemento no banco de dados, facilitando a criação de registros e a associação de dados, ha tambem procedures de UPDATE e DELETE.
 
 <div align=center>
 
 
 ## Contatos
 
-|  [![Linkedin](/img/icons8-linkedin-48.png)](https://seulinkaqui.com)| [![Instagram](/4_img/icone-instagram.png)](https://seulinkaqui.com) |[![Email](/img/icons8-email-48.png)](https://seulinkaqui.com) | [![Portfolio](/img/icons8-portf%C3%B3lio-48.png)](https://seulinkaqui.com) |
-|-----------|-----------|-----------|-----------|-----------|
+|  [![Linkedin](/4_img/icone-linkedin.png)](https://www.linkedin.com/in/igor-ferreira-desenvolvedor/)| [![Instagram](/4_img/icone-instagram.png)](https://www.instagram.com/igoh_araujo/) 
+|-----------|-----------|
 
 </div>
