@@ -221,12 +221,12 @@ Esse é um projeto de banco de dados visando criar uma estrutura de dados para a
 
 |Scripts    |Clique aqui|
 |-----------|-----------|
-|DDL        |[Clique aqui](/2_script/1_DDL.sql)|
-|Dados      |[Clique aqui](/2_script/2_Insert_dados_de_teste.sql)|
-|views      |[Clique aqui](/2_script/3-views.sql)|
-|Procedures_insert|[Clique aqui](/2_script/4_Procedure_INSERT.sql)|
-|procedures_update|[Clique aqui](/2_script/5_Procedure_UPDATE.sql)|
-|procedures_delete|[Clique aqui](/2_script/6_Procedure_DELETE.sql)|
+|DDL        |[Clique aqui](/2_Scripts/1_DDL.sql)|
+|Dados      |[Clique aqui](/2_Script/2_Insert_dados_de_teste.sql)|
+|views      |[Clique aqui](/2_Script/3-views.sql)|
+|Procedures_insert|[Clique aqui](/2_Script/4_Procedure_INSERT.sql)|
+|procedures_update|[Clique aqui](/2_Script/5_Procedure_UPDATE.sql)|
+|procedures_delete|[Clique aqui](/2_Script/6_Procedure_DELETE.sql)|
 |Dumps      |[Clique aqui](https://seulinkaqui.com)|
 
 <div align=center>
