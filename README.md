@@ -284,11 +284,11 @@ Esse é um projeto de banco de dados visando criar uma estrutura de dados para a
 |Scripts    |Clique aqui|
 |-----------|-----------|
 |DDL        |[Clique aqui](/2_script/1_DDL.sql)|
-|Dados      |[Clique aqui](https://seulinkaqui.com)|
-|Views      |[Clique aqui](https://seulinkaqui.com)|
-|Funções    |[Clique aqui](https://seulinkaqui.com)|
-|Procedures |[Clique aqui](https://seulinkaqui.com)|
-|Triggers   |[Clique aqui](https://seulinkaqui.com)|
+|Dados      |[Clique aqui](/2_script/2_Insert_dados_de_teste.sql)|
+|Views      |[Clique aqui](/2_script/3-viws.sql|
+|Procedures_insert|[Clique aqui](/2_script/4_Procedure_insert.sql)|
+|procedures_update|[Clique aqui](/2_script/5_Procedure_UPDATE.sql)|
+|procedures_delete|[Clique aqui](/2_script/6_Procedure_DELETE.sql)|
 |Dumps      |[Clique aqui](https://seulinkaqui.com)|
 
 <div align=center>
