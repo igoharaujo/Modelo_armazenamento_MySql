@@ -258,11 +258,54 @@ Esse é um projeto de banco de dados visando criar uma estrutura de dados para a
 ## Procedures
 </div>
 
-- **Procedures1:** Esta procedures daz isso e quilo outro ...
-- **Procedures2:** Esta procedures daz isso e quilo outro ...
-- **Procedures3:** Esta procedures daz isso e quilo outro ...
-- **Procedures4:** Esta procedures daz isso e quilo outro ...
-- **Procedures5:** Esta procedures daz isso e quilo outro ...
+## Procedures
+
+- **sp_delete_classificacao:** Esta procedure realiza a exclusão de uma classificação.
+
+- **sp_delete_ator:** Esta procedure realiza a exclusão de um ator.
+
+- **sp_delete_idioma:** Esta procedure realiza a exclusão de um idioma.
+
+- **sp_delete_categoria:** Esta procedure realiza a exclusão de uma categoria.
+
+- **sp_delete_catalogo:** Esta procedure realiza a exclusão de um catálogo.
+
+- **sp_delete_pais_catalogo:** Esta procedure realiza a exclusão de uma associação entre país e catálogo.
+
+- **sp_delete_idioma_catalogo:** Esta procedure realiza a exclusão de uma associação entre idioma e catálogo.
+
+- **sp_delete_ator_catalogo:** Esta procedure realiza a exclusão de uma associação entre ator e catálogo.
+
+- **sp_delete_categoria_catalogo:** Esta procedure realiza a exclusão de uma associação entre categoria e catálogo.
+
+- **sp_delete_filme:** Esta procedure realiza a exclusão de um filme.
+
+- **sp_delete_serie:** Esta procedure realiza a exclusão de uma série.
+
+- **sp_delete_temporada:** Esta procedure realiza a exclusão de uma temporada.
+
+- **sp_delete_episodio:** Esta procedure realiza a exclusão de um episódio.
+
+- **sp_delete_endereco:** Esta procedure realiza a exclusão de um endereço.
+
+- **sp_delete_pessoa:** Esta procedure realiza a exclusão de uma pessoa.
+
+- **sp_delete_funcionario:** Esta procedure realiza a exclusão de um funcionário.
+
+- **sp_delete_plano:** Esta procedure realiza a exclusão de um plano.
+
+- **sp_delete_cartao_credito:** Esta procedure realiza a exclusão de um cartão de crédito.
+
+- **sp_delete_tipo_pagamento:** Esta procedure realiza a exclusão de um tipo de pagamento.
+
+- **sp_delete_cliente:** Esta procedure realiza a exclusão de um cliente.
+
+- **sp_delete_pagamento:** Esta procedure realiza a exclusão de um pagamento.
+
+- **sp_delete_perfil:** Esta procedure realiza a exclusão de um perfil.
+
+Cada uma das procedures acima é responsável pela operação de exclusão de um determinado elemento no banco de dados.
+
 
 <div align=center>
 
