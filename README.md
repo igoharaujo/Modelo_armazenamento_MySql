@@ -260,51 +260,54 @@ Esse é um projeto de banco de dados visando criar uma estrutura de dados para a
 
 ## Procedures
 
-- **sp_delete_classificacao:** Esta procedure realiza a exclusão de uma classificação.
+## Procedures
 
-- **sp_delete_ator:** Esta procedure realiza a exclusão de um ator.
+- **sp_insert_classificacao:** Esta procedure realiza a inserção de uma nova classificação no banco de dados. Ela recebe como parâmetros as informações necessárias para criar uma nova classificação, como nome, descrição, faixa etária, etc.
 
-- **sp_delete_idioma:** Esta procedure realiza a exclusão de um idioma.
+- **sp_insert_ator:** Esta procedure realiza a inserção de um novo ator no banco de dados. Ela recebe como parâmetros os dados do ator, como nome, data de nascimento, nacionalidade, etc., e cria um novo registro para o ator.
 
-- **sp_delete_categoria:** Esta procedure realiza a exclusão de uma categoria.
+- **sp_insert_idioma:** Esta procedure realiza a inserção de um novo idioma no banco de dados. Ela recebe como parâmetros as informações do idioma, como nome e código, e insere um novo registro na tabela de idiomas.
 
-- **sp_delete_catalogo:** Esta procedure realiza a exclusão de um catálogo.
+- **sp_insert_categoria:** Esta procedure realiza a inserção de uma nova categoria no banco de dados. Ela recebe como parâmetros os dados da categoria, como nome e descrição, e cria um novo registro na tabela de categorias.
 
-- **sp_delete_pais_catalogo:** Esta procedure realiza a exclusão de uma associação entre país e catálogo.
+- **sp_insert_catalogo:** Esta procedure realiza a inserção de um novo catálogo no banco de dados. Ela recebe como parâmetros as informações do catálogo, como título, descrição, data de lançamento, etc., e insere um novo registro na tabela de catálogos.
 
-- **sp_delete_idioma_catalogo:** Esta procedure realiza a exclusão de uma associação entre idioma e catálogo.
+- **sp_insert_pais_catalogo:** Esta procedure realiza a associação entre um país e um catálogo no banco de dados. Ela recebe como parâmetros o ID do país e o ID do catálogo e cria um novo registro na tabela de associação país-catálogo.
 
-- **sp_delete_ator_catalogo:** Esta procedure realiza a exclusão de uma associação entre ator e catálogo.
+- **sp_insert_idioma_catalogo:** Esta procedure realiza a associação entre um idioma e um catálogo no banco de dados. Ela recebe como parâmetros o ID do idioma e o ID do catálogo e insere um novo registro na tabela de associação idioma-catálogo.
 
-- **sp_delete_categoria_catalogo:** Esta procedure realiza a exclusão de uma associação entre categoria e catálogo.
+- **sp_insert_ator_catalogo:** Esta procedure realiza a associação entre um ator e um catálogo no banco de dados. Ela recebe como parâmetros o ID do ator e o ID do catálogo e cria um novo registro na tabela de associação ator-catálogo.
 
-- **sp_delete_filme:** Esta procedure realiza a exclusão de um filme.
+- **sp_insert_categoria_catalogo:** Esta procedure realiza a associação entre uma categoria e um catálogo no banco de dados. Ela recebe como parâmetros o ID da categoria e o ID do catálogo e insere um novo registro na tabela de associação categoria-catálogo.
 
-- **sp_delete_serie:** Esta procedure realiza a exclusão de uma série.
+- **sp_insert_filme:** Esta procedure realiza a inserção de um novo filme no banco de dados. Ela recebe como parâmetros as informações do filme, como título, duração, diretor, etc., e cria um novo registro na tabela de filmes.
 
-- **sp_delete_temporada:** Esta procedure realiza a exclusão de uma temporada.
+- **sp_insert_serie:** Esta procedure realiza a inserção de uma nova série no banco de dados. Ela recebe como parâmetros os dados da série, como título, data de lançamento, descrição, etc., e insere um novo registro na tabela de séries.
 
-- **sp_delete_episodio:** Esta procedure realiza a exclusão de um episódio.
+- **sp_insert_temporada:** Esta procedure realiza a inserção de uma nova temporada no banco de dados. Ela recebe como parâmetros as informações da temporada, como número, título, data de lançamento, etc., e cria um novo registro na tabela de temporadas.
 
-- **sp_delete_endereco:** Esta procedure realiza a exclusão de um endereço.
+- **sp_insert_episodio:** Esta procedure realiza a inserção de um novo episódio no banco de dados. Ela recebe como parâmetros os dados do episódio, como número, título, duração, etc., e insere um novo registro na tabela de episódios.
 
-- **sp_delete_pessoa:** Esta procedure realiza a exclusão de uma pessoa.
+- **sp_insert_endereco:** Esta procedure realiza a inserção de um novo endereço no banco de dados. Ela recebe como parâmetros as informações do endereço, como rua, número, cidade, etc., e cria um novo registro na tabela de endereços.
 
-- **sp_delete_funcionario:** Esta procedure realiza a exclusão de um funcionário.
+- **sp_insert_pessoa:** Esta procedure realiza a inserção de uma nova pessoa no banco de dados. Ela recebe como parâmetros os dados da pessoa, como nome, data de nascimento, gênero, etc., e insere um novo registro na tabela de pessoas.
 
-- **sp_delete_plano:** Esta procedure realiza a exclusão de um plano.
+- **sp_insert_funcionario:** Esta procedure realiza a inserção de um novo funcionário no banco de dados. Ela recebe como parâmetros as informações do funcionário, como nome, cargo, salário, etc., e cria um novo registro na tabela de funcionários.
 
-- **sp_delete_cartao_credito:** Esta procedure realiza a exclusão de um cartão de crédito.
+- **sp_insert_plano:** Esta procedure realiza a inserção de um novo plano no banco de dados. Ela recebe como parâmetros os dados do plano, como nome, descrição, valor, etc., e insere um novo registro na tabela de planos.
 
-- **sp_delete_tipo_pagamento:** Esta procedure realiza a exclusão de um tipo de pagamento.
+- **sp_insert_cartao_credito:** Esta procedure realiza a inserção de um novo cartão de crédito no banco de dados. Ela recebe como parâmetros os dados do cartão, como número, titular, validade, etc., e cria um novo registro na tabela de cartões de crédito.
 
-- **sp_delete_cliente:** Esta procedure realiza a exclusão de um cliente.
+- **sp_insert_tipo_pagamento:** Esta procedure realiza a inserção de um novo tipo de pagamento no banco de dados. Ela recebe como parâmetros as informações do tipo de pagamento, como nome, descrição, etc., e insere um novo registro na tabela de tipos de pagamento.
 
-- **sp_delete_pagamento:** Esta procedure realiza a exclusão de um pagamento.
+- **sp_insert_cliente:** Esta procedure realiza a inserção de um novo cliente no banco de dados. Ela recebe como parâmetros os dados do cliente, como nome, e-mail, telefone, etc., e cria um novo registro na tabela de clientes.
 
-- **sp_delete_perfil:** Esta procedure realiza a exclusão de um perfil.
+- **sp_insert_pagamento:** Esta procedure realiza a inserção de um novo pagamento no banco de dados. Ela recebe como parâmetros as informações do pagamento, como valor, data, tipo de pagamento, etc., e insere um novo registro na tabela de pagamentos.
 
-Cada uma das procedures acima é responsável pela operação de exclusão de um determinado elemento no banco de dados.
+- **sp_insert_perfil:** Esta procedure realiza a inserção de um novo perfil no banco de dados. Ela recebe como parâmetros os dados do perfil, como nome, descrição, etc., e cria um novo registro na tabela de perfis.
+
+Cada uma das procedures acima é responsável pela operação de inserção de um determinado elemento no banco de dados, facilitando a criação de registros e a associação de dados.
+
 
 
 <div align=center>
@@ -328,7 +331,7 @@ Cada uma das procedures acima é responsável pela operação de exclusão de um
 |-----------|-----------|
 |DDL        |[Clique aqui](/2_script/1_DDL.sql)|
 |Dados      |[Clique aqui](/2_script/2_Insert_dados_de_teste.sql)|
-|Views      |[Clique aqui](/2_script/3-viws.sql|
+|views      |[Clique aqui]()|
 |Procedures_insert|[Clique aqui](/2_script/4_Procedure_insert.sql)|
 |procedures_update|[Clique aqui](/2_script/5_Procedure_UPDATE.sql)|
 |procedures_delete|[Clique aqui](/2_script/6_Procedure_DELETE.sql)|
