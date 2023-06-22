@@ -295,7 +295,7 @@ Esse é um projeto de banco de dados visando criar uma estrutura de dados para a
 
 ## Contatos
 
-|  [![Linkedin](/img/icons8-linkedin-48.png)](https://seulinkaqui.com)| [![Instagram](/img/icons8-instagram-48.png)](https://seulinkaqui.com) |[![Email](/img/icons8-email-48.png)](https://seulinkaqui.com) | [![Portfolio](/img/icons8-portf%C3%B3lio-48.png)](https://seulinkaqui.com) |
+|  [![Linkedin](/img/icons8-linkedin-48.png)](https://seulinkaqui.com)| [![Instagram](/4_img/icone-instagram.png)](https://seulinkaqui.com) |[![Email](/img/icons8-email-48.png)](https://seulinkaqui.com) | [![Portfolio](/img/icons8-portf%C3%B3lio-48.png)](https://seulinkaqui.com) |
 |-----------|-----------|-----------|-----------|-----------|
 
 </div>

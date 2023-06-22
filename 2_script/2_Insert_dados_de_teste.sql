@@ -341,24 +341,23 @@ VALUES
     
     
 -- --------------------------------------------------------
-     
 
 INSERT INTO catalogo 
 	(titulo, sinopse, ano_lancamento, duracao, avaliacao, idioma_original, id_classificacao) 
 VALUES
 -- Inserindo Filmes
     ('Vingadores: Ultimato', 'Os heróis da Marvel se unem para derrotar Thanos.', 2019, '03:01:00', '5', 1, 3),
-    ('A Origem', 'Um ladrão especializado em roubar segredos corporativos invade os sonhos das pessoas.', 2010, '02:28:00', '4', 2, 4),
+    ('A Origem', 'Um ladrão especializado em roubar segredos corporativos invade os sonhos das pessoas.', 2010, '02:28:00', '4', 1, 4),
     ('Pulp Fiction: Tempo de Violência', 'Uma história não linear que entrelaça várias tramas.', 1994, '02:34:00', '5', 1, 4),
-    ('O Senhor dos Anéis: O Retorno do Rei', 'A batalha final pela Terra-média está prestes a acontecer.', 2003, '03:21:00', '5', 3, 5),
-    ('Interestelar', 'Um grupo de exploradores parte em uma missão espacial para salvar a humanidade.', 2014, '02:49:00', '4', 2, 3),
+    ('O Senhor dos Anéis: O Retorno do Rei', 'A batalha final pela Terra-média está prestes a acontecer.', 2003, '03:21:00', '5', 1, 5),
+    ('Interestelar', 'Um grupo de exploradores parte em uma missão espacial para salvar a humanidade.', 2014, '02:49:00', '4', 1, 3),
 
 -- Inserindo Séries
-    ('Breaking Bad', 'Um professor de química se envolve com o tráfico de drogas.', 2008, '02:37:00', '5', 1, 4),
-    ('Friends', 'Um grupo de amigos vive diversas aventuras em Nova York.', 1994, '02:42:00', '4', 2, 2),
-    ('Game of Thrones', 'As famílias nobres lutam pelo controle do Trono de Ferro.', 2011, '02:42:00', '5', 1, 5),
-    ('Stranger Things', 'Um grupo de crianças enfrenta criaturas sobrenaturais em sua cidade.', 2016, '03:52:00', '4', 3, 3),
-    ('The Crown', 'A vida da rainha Elizabeth II desde o início de seu reinado.', 2016, '01:58:00', '5', 2, 4);
+    ('Breaking Bad', 'Um professor de química se envolve com o tráfico de drogas.', 2008, '04:39:00', '5', 1, 4),
+    ('Friends', 'Um grupo de amigos vive diversas aventuras em Nova York.', 1994, '04:40:00', '4', 1, 2),
+    ('Game of Thrones', 'As famílias nobres lutam pelo controle do Trono de Ferro.', 2011, '04:50:00', '5', 1, 5),
+    ('Stranger Things', 'Um grupo de crianças enfrenta criaturas sobrenaturais em sua cidade.', 2016, '05:32:00', '4', 1, 3),
+    ('The Crown', 'A vida da rainha Elizabeth II desde o início de seu reinado.', 2016, '03:27:00', '5', 2, 4);
     
 -- ---------------------------------------------------------------------------
 
@@ -616,9 +615,9 @@ VALUES
     ('Piloto', 1, '00:47:00', 1),   						   		  -- Episódio 1 da série Breaking Bad, Temporada 1
     ('O Gato Está na Bolsa', 1, '00:49:00', 1),   			   		  -- Episódio 2 da série Breaking Bad, Temporada 1
     ('A Bolsa Está no Rio', 1, '00:46:00', 1),  		  		      -- Episódio 3 da série Breaking Bad, Temporada 1
-    ('Aquele com o Unagi', 1, '00:45:00', 2),   					  -- Episódio 4 da série Friends, Temporada 2
-    ('Aquele com o Dia do Bolo', 1, '00:43:00', 2),                   -- Episódio 5 da série Friends, Temporada 2
-    ('Aquele com a Rotina', 1, '00:49:00', 3),   			          -- Episódio 6 da série Friends, Temporada 3
+    ('Aquele com o Unagi', 1, '00:45:00', 2),   					  -- Episódio 4 da série Breaking Bad, Temporada 2
+    ('Aquele com o Dia do Bolo', 1, '00:43:00', 2),                   -- Episódio 5 da série Breaking Bad, Temporada 2
+    ('Aquele com a Rotina', 1, '00:49:00', 3),   			          -- Episódio 6 da Breaking Bad, Temporada 3
 -- Insira os demais episódios da série Breaking Bad aqui
 
     ('Aquele com o Macaco', 2, '00:47:00', 4),   					   -- Episódio 1 da série Friends, Temporada 1
@@ -728,7 +727,7 @@ VALUES
 -- ---------------------------------------------------------
 
 INSERT INTO cartao_credito 
-	(numero, dt_vencimento, cod_seguranca, titulo)
+	(numero, dt_vencimento, cod_seguranca, titular)
 VALUES
     ('1111222233334444', '2023-06-30', 123, 'João Silva'),          -- Pessoa 1
     ('2222333344445555', '2023-07-31', 456, 'Maria Souza'),         -- Pessoa 2
@@ -799,6 +798,8 @@ INSERT INTO perfil
 VALUES
     ('/caminho/para/foto1.jpg', 'João', 'perfil adulto', 1),
     ('/caminho/para/foto1.jpg', 'João', 'perfil adulto', 1),
+     ('/caminho/para/foto1.jpg', 'João', 'perfil adulto', 1),
+    ('/caminho/para/foto1.jpg', 'João', 'perfil adulto', 1),
     ('/caminho/para/foto1.jpg', 'João', 'perfil infantil', 1),
     ('/caminho/para/foto2.jpg', 'Maria', 'perfil adulto', 2),
     ('/caminho/para/foto2.jpg', 'Maria', 'perfil adulto', 2),
@@ -806,6 +807,8 @@ VALUES
     ('/caminho/para/foto3.jpg', 'Pedro', 'perfil adulto', 3),
     ('/caminho/para/foto3.jpg', 'Pedro', 'perfil adulto', 3),
     ('/caminho/para/foto3.jpg', 'Pedro', 'perfil infantil', 3),
+    ('/caminho/para/foto4.jpg', 'Ana', 'perfil adulto', 4),
+    ('/caminho/para/foto4.jpg', 'Ana', 'perfil adulto', 4),
     ('/caminho/para/foto4.jpg', 'Ana', 'perfil adulto', 4),
     ('/caminho/para/foto4.jpg', 'Ana', 'perfil adulto', 4),
     ('/caminho/para/foto4.jpg', 'Ana', 'perfil infantil', 4),
@@ -840,3 +843,4 @@ VALUES
     
 
     
+INSERT INTO perfil     (foto, nome, tipo, id_cliente) VALUES     ('/caminho/para/foto1.jpg', 'João', 'perfil adulto', 1),     ('/caminho/para/foto1.jpg', 'João', 'perfil adulto', 1),      ('/caminho/para/foto1.jpg', 'João', 'perfil adulto', 1),     ('/caminho/para/foto1.jpg', 'João', 'perfil adulto', 1),     ('/caminho/para/foto1.jpg', 'João', 'perfil infantil', 1),     ('/caminho/para/foto2.jpg', 'Maria', 'perfil adulto', 2),     ('/caminho/para/foto2.jpg', 'Maria', 'perfil adulto', 2),     ('/caminho/para/foto2.jpg', 'Maria', 'perfil infantil', 2),     ('/caminho/para/foto3.jpg', 'Pedro', 'perfil adulto', 3),     ('/caminho/para/foto3.jpg', 'Pedro', 'perfil adulto', 3),     ('/caminho/para/foto3.jpg', 'Pedro', 'perfil infantil', 3),     ('/caminho/para/foto4.jpg', 'Ana', 'perfil adulto', 4),     ('/caminho/para/foto4.jpg', 'Ana', 'perfil adulto', 4),     ('/caminho/para/foto4.jpg', 'Ana', 'perfil adulto', 4),     ('/caminho/para/foto4.jpg', 'Ana', 'perfil adulto', 4),     ('/caminho/para/foto4.jpg', 'Ana', 'perfil infantil', 4),     ('/caminho/para/foto5.jpg', 'Carlos', 'perfil adulto', 5),     ('/caminho/para/foto5.jpg', 'Carlos', 'perfil adulto', 5),     ('/caminho/para/foto5.jpg', 'Carlos', 'perfil infantil', 5),     ('/caminho/para/foto6.jpg', 'Fernanda', 'perfil adulto', 6),     ('/caminho/para/foto6.jpg', 'Fernanda', 'perfil adulto', 6),     ('/caminho/para/foto6.jpg', 'Fernanda', 'perfil infantil', 6),     ('/caminho/para/foto7.jpg', 'Eduardo', 'perfil adulto', 7),     ('/caminho/para/foto7.jpg', 'Eduardo', 'perfil adulto', 7),     ('/caminho/para/foto7.jpg', 'Eduardo', 'perfil infantil', 7),     ('/caminho/para/foto8.jpg', 'Letícia', 'perfil adulto', 8),     ('/caminho/para/foto8.jpg', 'Letícia', 'perfil adulto', 8),     ('/caminho/para/foto8.jpg', 'Letícia', 'perfil infantil', 8),     ('/caminho/para/foto9.jpg', 'Rafaela', 'perfil adulto', 9),     ('/caminho/para/foto9.jpg', 'Rafaela', 'perfil adulto', 9),     ('/caminho/para/foto9.jpg', 'Rafaela', 'perfil infantil', 9),     ('/caminho/para/foto10.jpg', 'Beatriz', 'perfil adulto', 10),     ('/caminho/para/foto10.jpg', 'Beatriz', 'perfil adulto', 10),     ('/caminho/para/foto10.jpg', 'Beatriz', 'perfil infantil', 10),     ('/caminho/para/foto11.jpg', 'Felipe', 'perfil adulto', 11),     ('/caminho/para/foto11.jpg', 'Felipe', 'perfil adulto', 11),     ('/caminho/para/foto11.jpg', 'Felipe', 'perfil infantil', 11),     ('/caminho/para/foto12.jpg', 'Gabriela', 'perfil adulto', 12),     ('/caminho/para/foto12.jpg', 'Gabriela', 'perfil adulto', 12),     ('/caminho/para/foto12.jpg', 'Gabriela', 'perfil infantil', 12)
