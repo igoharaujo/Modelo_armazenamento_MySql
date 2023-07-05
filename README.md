@@ -13,7 +13,7 @@ Esse é um projeto de banco de dados visando criar uma estrutura de dados para a
 <div align=center>
 
 ## Modelo Logico
-![Modelo conceitual](./4_img/fisico.png)
+![Modelo conceitual](./4_img/logico.png)
 </div>
 
 <div align=center>
