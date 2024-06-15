@@ -1,7 +1,8 @@
 
 <div align=center>
 
-# Projeto Streaming
+# Modelo De Armazenamento usando MySql
+
 
 Esse é um projeto de banco de dados visando criar uma estrutura de dados para armazenar informações de serviço de conteúdos multimídia. O projeto foi desenvolvido utilizando o sistema de gerenciamento MySQL para garantir a eficácia e confiabilidade na gestão dos dados.
 
